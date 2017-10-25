@@ -1,0 +1,525 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul,li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption,footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure,footer,header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul{list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: "";content: none;}table {border-collapse: collapse;border-spacing: 0;}
+
+body {
+    width: 1100px;
+    height: 1990px;
+}
+
+
+/* Header */
+
+header {
+    width: auto;
+    height: 344px;
+    background-color: #cdff63;
+}
+
+.poziom1 {
+    background-image: url(pics/headerbg.png);
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 344px;
+}
+
+.logo {
+    background-image: url(pics/logo.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 238px;
+    position: absolute;
+    left: 62px;
+    top: -74px;
+}
+
+header>h1 {
+    font-family: 'Indie Flower', cursive;
+    color: #1f4300;
+    font-size: 40px;
+    position: absolute;
+    left: 96px;
+    top: 192px;
+}
+
+.telram {
+    background-image: url(pics/telram.png);
+    background-repeat: no-repeat;
+    width: 312px;
+    height: 58px;
+    position: absolute;
+    left: 84px;
+    top: 240px;
+}
+
+header>h2 {
+    font-family: 'Roboto Bold', sans-serif;
+    color: #1f4300;
+    font-size: 32px;
+    position: absolute;
+    left: 98px;
+    top: 254px;
+}
+
+.slogan {
+    width: 618px;
+    height: 86px;
+    background: linear-gradient(to right, rgba(180, 70, 0, 1) 0%, rgba(250, 96, 0, 1) 50%, rgba(180, 70, 0, 1) 100%);
+    position: absolute;
+    left: 480px;
+    top: 182px;
+    border: 1px;
+    border-color: #e67600;
+    border-style: solid;
+    -webkit-border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 15px;
+}
+
+.slogan>h1 {
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin: 10px 0 0 16px;
+    text-shadow: -1px 1px 1px #000000;
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+
+.linia {
+    height: 1px;
+    margin: 6px 0 0 75px;
+    width: 400px;
+    Background: linear-gradient(to right, rgba(254, 146, 0, 0) 0%, rgba(254, 146, 0, 1) 50%, rgba(254, 146, 0, 0) 100%);
+}
+
+.slogan>h2 {
+    font-family: 'Roboto Light', sans-serif;
+    color: #fff;
+    font-size: 23px;
+    margin: 4px 0 0 21px;
+    text-shadow: -1px 1px 2px #000000;
+    letter-spacing: 2.6px;
+}
+
+nav {
+    width: 618px;
+    height: 38px;
+    left: 480px;
+    top: 280px;
+    position: absolute;
+    background: linear-gradient(to right, rgba(32, 69, 0, 1) 0%, rgba(40, 104, 0, 1) 50%, rgba(32, 69, 0, 1) 100%);
+    border: 1px;
+    border-color: #3c9800;
+    border-style: solid;
+    -webkit-border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 15px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 0 0px 22px;
+}
+
+nav>ul>li>a {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: -1px 1px 2px #000000;
+    text-decoration: none;
+}
+
+
+/* Main */
+
+.poziom2 {
+    width: auto;
+    height: 74px;
+    background: linear-gradient(to right, rgba(31, 67, 0, 1) 6%, rgba(59, 147, 5, 1) 22%, rgba(31, 67, 0, 1) 44%);
+    border: 1px;
+    border-style: solid;
+    border-color: #3a7a08;
+}
+
+.poziom2>.light {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-shadow: -1px 1px 2px #000000;
+    position: absolute;
+    left: 95px;
+    top: 360px;
+}
+
+.poziom2>.bold {
+    font-family: 'Roboto Bold', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-shadow: -1px 1px 2px #000000;
+    position: absolute;
+    left: 340px;
+    top: 360px;
+}
+
+.paper {
+    width: 908px;
+    height: 1520px;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    left: 92px;
+    top: 384px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    -webkit-box-shadow: 0 0 30px 1px #000000;
+    box-shadow: 0 0 30px 1px #000000;
+}
+
+.poziom3 {
+    width: auto;
+    height: 1442px;
+    background: linear-gradient(to bottom, rgba(229, 255, 174, 1) 0%, rgba(205, 255, 98, 1) 25%, rgba(229, 255, 174, 1) 50%, rgba(205, 255, 98, 1) 75%, rgba(229, 255, 174, 1) 100%);
+}
+
+
+/* Aside */
+
+aside {
+    width: 260px;
+    height: 1334px;
+}
+
+aside>.kontbox {
+    background-image: url(pics/tlokont.png);
+    background-repeat: no-repeat;
+    width: 225px;
+    height: 252px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    -webkit-border-radius: 8px 8px 10px 8px;
+    border-radius: 8px 8px 10px 8px;
+    -webkit-box-shadow: -2px 2px 16px 0px #000000;
+    box-shadow: -2px 2px 16px 0px #000000;
+}
+
+aside>.kontbox>.telobr {
+    background-image: url(pics/tel.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    margin: 24px 0 0 14px;
+    display: inline-block;
+}
+
+aside>.kontbox>.telobr>.tel {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    position: absolute;
+    margin: 0 0 0 38px;
+    text-shadow: -1px 1px 2px #000000;
+}
+
+aside>.kontbox>.messobr {
+    background-image: url(pics/message.png);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 32px;
+    margin: 16px 0 0 10px;
+}
+
+aside>.kontbox>.messobr>.sales {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 0 0 42px;
+    display: block;
+    text-shadow: -1px 1px 2px #000000;
+}
+
+aside>.kontbox>.messobr>.office {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 6px 0 0 42px;
+    display: block;
+    text-shadow: -1px 1px 2px #000000;
+}
+
+aside>.kontbox>.ggobr {
+    background-image: url(pics/gg.png);
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
+    margin: 20px 0 0 10px;
+    display: inline-block;
+}
+
+aside>.kontbox>.ggobr>.gg {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    margin: 8px 0 0 50px;
+    text-shadow: -1px 1px 2px #000000;
+}
+
+aside>.kontbox>.top{
+    font-family: 'Arial Bold', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    margin: 20px 0 0 10px;
+    display: block;
+    text-shadow: -1px 1px 2px #000000;
+}
+
+aside>.kontbox>.siedziba{
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 5px 0 0 10px;
+    width: 120px;
+    display: block;
+    text-shadow: -1px 1px 2px #000000;
+}
+
+aside>.platbox {
+    background-image: url(pics/tloplat.png);
+    background-repeat: no-repeat;
+    height: 164px;
+    width: 226px;
+    display: inline-block;
+    position: absolute;
+    top: 292px;
+    left: 16px;
+    -webkit-box-shadow: -2px 2px 16px 0px #000000;
+    box-shadow: -2px 2px 16px 0px #000000;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border-radius: 16px 16px 16px 16px;
+}
+
+aside>.platbox>.formplat {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 10px 0 0 30px;
+    display: block;
+    text-shadow: -1px 1px 2px #000000;
+}
+
+aside>.platbox>.plus {
+    background-image: url(pics/Tick%20Circle.png);
+    background-repeat: no-repeat;
+    height: 17px;
+    width: 16px;
+    margin: 30px 0 0 10px;
+    position: absolute;
+}
+
+aside>.platbox>.pluskom {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 12px;
+    color: #204500;
+    margin: 28px 0 0 32px;
+    position: absolute;
+    font-weight: bold;
+}
+
+aside>.platbox>.plus1 {
+    background-image: url(pics/Tick%20Circle.png);
+    background-repeat: no-repeat;
+    height: 17px;
+    width: 16px;
+    margin: 80px 0 0 10px;
+    position: absolute;
+}
+
+aside>.platbox>.pluskom1 {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 12px;
+    color: #204500;
+    width: 180px;
+    margin: 82px 0 0 32px;
+    position: absolute;
+    font-weight: bold;
+}
+
+aside>.dostbox {
+    background-image: url(pics/tlodost.png);
+    background-repeat: no-repeat;
+    height: 134px;
+    width: 226px;
+    display: inline-block;
+    position: absolute;
+    top: 488px;
+    left: 16px;
+    -webkit-box-shadow: -2px 2px 16px 0px #000000;
+    box-shadow: -2px 2px 16px 0px #000000;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border-radius: 16px 16px 16px 16px;
+}
+
+aside>.dostbox>.tytwys {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 10px 0 0 70px;
+    display: block;
+    text-shadow: -1px 1px 2px #000000;
+}
+
+aside>.dostbox>.wyskom {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 12px;
+    color: #204500;
+    margin: 30px 0 0 10px;
+    position: absolute;
+    font-weight: bold;
+    width: 210px;
+}
+
+/* Article */
+
+article {
+    width: 592px;
+    height: 1334px;
+}
+
+article>.main1 {
+    font-family: 'Arial Bold', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #e75a01;
+    margin: 26px 0px 0px 0px;
+}
+
+article>.line {
+    width: 588px;
+    height: 1px;
+    background-color: #5f5f5f;
+    margin: 10px 0 25px 0;
+    border: none;
+}
+
+article>.info1 {
+    font-family: 'Arial Bold', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #505050;
+    margin: -22px 0 38px 0;
+}
+
+article>.desc {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 14px;
+    color: #214a00;
+}
+
+article>.main2 {
+    font-family: 'Arial Bold', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #e75a01;
+    text-transform: uppercase;
+    margin: 26px 0 0 0;
+}
+
+article>.plus {
+    background-image: url(pics/Tick%20Circle%20Orange.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+article>.txtplus {
+    font-family: 'Arial Regular', sans-serif;
+    font-size: 14px;
+    color: #214a00;
+}
+
+article>.zdjecie1 {
+    background-image: url(pics/obraz1.png);
+    background-repeat: no-repeat;
+    width: 596px;
+    height: 207px;
+    margin: 60px 0 12px -16px;
+}
+
+article>.zdjecie2 {
+    background-image: url(pics/obraz2.png);
+    background-repeat: no-repeat;
+    width: 596px;
+    height: 244px;
+    margin: 0 0 12px -16px;
+}
+
+article>.zdjecie3 {
+    background-image: url(pics/obraz3.png);
+    background-repeat: no-repeat;
+    width: 596px;
+    height: 292px;
+    margin: 10px 0 0 -16px;
+}
+
+article>.metr {
+    width: 822px;
+    height: 58px;
+    background: linear-gradient(to right, rgba(35, 77, 1, 1) 0%, rgba(45, 104, 2, 1) 19%, rgba(36, 81, 1, 1) 43%, rgba(44, 103, 3, 1) 65%, rgba(35, 77, 1, 1) 87%, rgba(42, 98, 2, 1) 100%);
+    position: relative;
+    top: 26px;
+    left: -218px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.metr>a {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    position: absolute;
+    top: 16px;
+    left: 82px;
+}
+
+
+/* Footer */
+
+footer {
+    width: auto;
+    height: 130px;
+    background: linear-gradient(to right, rgba(31, 67, 0, 1) 0%, rgba(59, 144, 5, 1) 73%, rgba(31, 67, 0, 1) 100%);
+    border: 1px;
+    border-style: solid;
+    border-color: #3a7a08;
+}
+
+footer>ul {
+    list-style: none;
+    margin: 70px 0 0 70px;
+}
+
+footer>ul>li>a {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: -1px 1px 2px #000000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+footer>.logodol {
+    background-image: url(pics/logomini.png);
+    width: 117px;
+    height: 56px;
+    background-repeat: no-repeat;
+    margin: -38px 0 0 748px;
+}
